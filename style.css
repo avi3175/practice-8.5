@@ -1,0 +1,140 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .search-button {
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .search-button:hover {
+    background-color: darkred;
+  }
+
+ 
+
+  .card {
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+
+  .card-content p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+
+  .card-content button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .card-content button:hover {
+    background-color: #0056b3;
+  }
+
+  #meal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+  }
+
+
+
+.single-card {
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  
+}
+
+.single-card img {
+  width: 100%;
+  height: auto;
+}
+
+.single-card-content {
+  padding: 20px;
+}
+
+.single-card-content p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .search-input {
+      width: 100%; 
+      margin-right: 0; 
+    }
+    .search-button {
+      padding: 8px; 
+    }
+    .card {
+      max-width: 100%; 
+      margin: 20px 0; 
+    }
+
+    #meal {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      gap: 20px; 
+    }
+  }
